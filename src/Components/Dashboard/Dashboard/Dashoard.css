@@ -1,0 +1,39 @@
+.sidebar{
+    display:flex;
+}
+.left-side{
+    flex-basis: 25%;
+    background-color: rgb(148, 238, 148);
+    padding-top: 50px;
+}
+.side-menu-main{
+height:50px;
+text-decoration: none;
+color: white;
+}
+.side-menu-details{
+    padding:10px 0 0 50px;
+}
+.side-menu-name{
+    padding-left: 10px;
+}
+
+.right-side{
+    flex-basis: 75%;
+    background-color: rgb(194, 227, 247);
+    color:white 
+}
+@media only screen and (max-width: 768px) {
+    .left-side{
+        flex-basis: 5%;
+    }
+    .side-menu-details{
+        padding-left: 0;
+    }
+    .side-menu-name{
+        display:none;
+    }
+    .right-side{
+        flex-basis: 95%;
+    }
+}

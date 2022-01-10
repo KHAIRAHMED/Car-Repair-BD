@@ -1,0 +1,8 @@
+.header-section{
+    height:600px;
+    position:relative;
+    background-image: url("../../../images/header-min.jpeg");
+    background-size: cover;
+    /* z-index: -.5; */
+    opacity: .9;
+}

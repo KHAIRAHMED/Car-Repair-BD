@@ -1,0 +1,21 @@
+.footer-section{
+}
+
+.fontIcon{
+    font-size: 30px;
+  margin-top: 10px;
+  
+    
+}
+.icon-section{
+    height:50px;
+    width:50px;
+    border: 1px solid #1CC7C1;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+
+}
+.icon-section:hover{
+    background-color: #1CC7C1;
+}
